@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LeyOhmApp</string>
+    <string-array name="actions_array">
+        <item>Voltaje</item>
+        <item>Corriente</item>
+        <item>Resistencia</item>
+    </string-array>
+</resources>

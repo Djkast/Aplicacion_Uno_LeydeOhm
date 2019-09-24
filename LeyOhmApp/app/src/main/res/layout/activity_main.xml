@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ley de Ohm"
+        android:textSize="15pt"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La ley de Ohm, postulada por el físico y matemático alemán Georg Simon Ohm, es una ley básica de los circuitos eléctricos."
+        android:textSize="8pt"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nCalculo a realizar"
+        android:textSize="8pt"
+        android:textAlignment="center"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spAccion"
+        >
+    </Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCorriente"
+        android:textSize="8pt"
+        android:hint="Corriente (I) Amperios"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtVoltaje"
+        android:textSize="8pt"
+        android:hint="Voltaje (V) Voltios"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtResistencia"
+        android:textSize="8pt"
+        android:hint="Resistencia (R) ohmios"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalcular"
+        android:textSize="8pt"
+        android:text="CALCULAR"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvResultado"
+        android:textSize="8pt"
+        android:textColor="@android:color/holo_red_light"
+        />
+
+</LinearLayout>
